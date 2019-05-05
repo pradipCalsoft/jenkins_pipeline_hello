@@ -17,7 +17,7 @@ node {
     }
 }
     node { 
-        stage ('deploy to preprod')
+        stage ('deploy to preprod'){
         echo "deploying"
     }
 }
